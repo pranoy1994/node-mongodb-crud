@@ -15,7 +15,7 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp',(err, db)=>{
        console.log(JSON.stringify(res.ops, undefined, 2));
    });
     */
-   /* 
+   
     db.collection('Users').insertOne({
         firstName: "Pranoy",
         lastName: "Biswas",
@@ -27,6 +27,6 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp',(err, db)=>{
         console.log("inserted", JSON.stringify(res.ops, undefined, 2));
     });
     
-    */
+   
     db.close();
 });
