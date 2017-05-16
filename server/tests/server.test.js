@@ -98,7 +98,7 @@ describe('POST /todos', () => {
   });
 });
 
-describe('GET /todoslalala',() =>{
+describe('GET /todo',() =>{
  it('should get all todos', (done) =>{
     request(app)
      .get('/todos')
