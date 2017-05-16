@@ -14,8 +14,6 @@ var Users = mongoose.model('Users',{
 
 module.exports = {Users};
 
-
-
 /*
 var newUser = new Users({
     email:"  pranoybiswas1994@gmail.com"
